@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B51E4FE-6320-4E3E-A146-4A82A638AC35</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CAIShare</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67ED90020193CDF60E508B83D83E7E5F9B607D6A</key>
+		<string>github.com:caicai0/CAIShare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CAIShare/CAIShare.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67ED90020193CDF60E508B83D83E7E5F9B607D6A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:caicai0/CAIShare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67ED90020193CDF60E508B83D83E7E5F9B607D6A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67ED90020193CDF60E508B83D83E7E5F9B607D6A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CAIShare</string>
+		</dict>
+	</array>
+</dict>
+</plist>
