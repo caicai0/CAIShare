@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049B1C2819F6BE7800ECE572 /* ShareSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B1C2719F6BE7800ECE572 /* ShareSDK.m */; };
 		7EC2B49919F62D1200475A63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2B49819F62D1200475A63 /* main.m */; };
 		7EC2B49C19F62D1200475A63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2B49B19F62D1200475A63 /* AppDelegate.m */; };
 		7EC2B49F19F62D1200475A63 /* CAIShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2B49D19F62D1200475A63 /* CAIShare.xcdatamodeld */; };
@@ -28,6 +29,101 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049B1BFE19F6B11100ECE572 /* ISSAuthOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSAuthOptions.h; sourceTree = "<group>"; };
+		049B1BFF19F6B11100ECE572 /* ISSContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSContainer.h; sourceTree = "<group>"; };
+		049B1C0019F6B11100ECE572 /* ISSContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSContent.h; sourceTree = "<group>"; };
+		049B1C0119F6B11100ECE572 /* ISSiPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSiPadViewController.h; sourceTree = "<group>"; };
+		049B1C0219F6B11100ECE572 /* ISSPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPage.h; sourceTree = "<group>"; };
+		049B1C0319F6B11100ECE572 /* ISSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatform.h; sourceTree = "<group>"; };
+		049B1C0419F6B11100ECE572 /* ISSPlatformApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformApp.h; sourceTree = "<group>"; };
+		049B1C0519F6B11100ECE572 /* ISSPlatformAuthSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformAuthSession.h; sourceTree = "<group>"; };
+		049B1C0619F6B11100ECE572 /* ISSPlatformCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformCredential.h; sourceTree = "<group>"; };
+		049B1C0719F6B11100ECE572 /* ISSPlatformShareContentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformShareContentEntity.h; sourceTree = "<group>"; };
+		049B1C0819F6B11100ECE572 /* ISSPlatformShareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformShareInfo.h; sourceTree = "<group>"; };
+		049B1C0919F6B11100ECE572 /* ISSPlatformUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSPlatformUser.h; sourceTree = "<group>"; };
+		049B1C0A19F6B11100ECE572 /* ISSShareActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSShareActionSheet.h; sourceTree = "<group>"; };
+		049B1C0B19F6B11100ECE572 /* ISSShareActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSShareActionSheetItem.h; sourceTree = "<group>"; };
+		049B1C0C19F6B11100ECE572 /* ISSShareOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSShareOptions.h; sourceTree = "<group>"; };
+		049B1C0D19F6B11100ECE572 /* ISSShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSShareView.h; sourceTree = "<group>"; };
+		049B1C0E19F6B11100ECE572 /* ISSShareViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSShareViewDelegate.h; sourceTree = "<group>"; };
+		049B1C0F19F6B11100ECE572 /* ISSUserField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSUserField.h; sourceTree = "<group>"; };
+		049B1C1019F6B11100ECE572 /* ISSViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSViewDelegate.h; sourceTree = "<group>"; };
+		049B1C1119F6B11100ECE572 /* NSArray+ShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ShareSDK.h"; sourceTree = "<group>"; };
+		049B1C1219F6B11100ECE572 /* ShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDK.h; sourceTree = "<group>"; };
+		049B1C1319F6B11100ECE572 /* ShareSDK+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShareSDK+Utils.h"; sourceTree = "<group>"; };
+		049B1C1419F6B11100ECE572 /* ShareSDKDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKDef.h; sourceTree = "<group>"; };
+		049B1C1519F6B11100ECE572 /* ShareSDKEventHandlerDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKEventHandlerDef.h; sourceTree = "<group>"; };
+		049B1C1619F6B11100ECE572 /* ShareSDKPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKPlugin.h; sourceTree = "<group>"; };
+		049B1C1719F6B11100ECE572 /* ShareSDKTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKTypeDef.h; sourceTree = "<group>"; };
+		049B1C1819F6B11100ECE572 /* SSHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTTPClient.h; sourceTree = "<group>"; };
+		049B1C1919F6B11100ECE572 /* SSHTTPParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTTPParameters.h; sourceTree = "<group>"; };
+		049B1C1A19F6B11100ECE572 /* SSInheritValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSInheritValue.h; sourceTree = "<group>"; };
+		049B1C1B19F6B11100ECE572 /* SSLogDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLogDef.h; sourceTree = "<group>"; };
+		049B1C1C19F6B11100ECE572 /* SSViewDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewDef.h; sourceTree = "<group>"; };
+		049B1C2719F6BE7800ECE572 /* ShareSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSDK.m; sourceTree = "<group>"; };
+		049B1C2B19F6BF3600ECE572 /* ISSCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCAccount.h; sourceTree = "<group>"; };
+		049B1C2C19F6BF3600ECE572 /* ISSCAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCAttachment.h; sourceTree = "<group>"; };
+		049B1C2D19F6BF3600ECE572 /* ISSCAuthSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCAuthSession.h; sourceTree = "<group>"; };
+		049B1C2E19F6BF3600ECE572 /* ISSCContentDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCContentDescriptor.h; sourceTree = "<group>"; };
+		049B1C2F19F6BF3600ECE572 /* ISSCDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCDataObject.h; sourceTree = "<group>"; };
+		049B1C3019F6BF3600ECE572 /* ISSCOAuthParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCOAuthParameters.h; sourceTree = "<group>"; };
+		049B1C3119F6BF3600ECE572 /* ISSCOpenApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCOpenApp.h; sourceTree = "<group>"; };
+		049B1C3219F6BF3600ECE572 /* ISSCParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCParameters.h; sourceTree = "<group>"; };
+		049B1C3319F6BF3600ECE572 /* ISSCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCRequest.h; sourceTree = "<group>"; };
+		049B1C3419F6BF3600ECE572 /* ISSCToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCToken.h; sourceTree = "<group>"; };
+		049B1C3519F6BF3600ECE572 /* ISSCUserDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCUserDescriptor.h; sourceTree = "<group>"; };
+		049B1C3619F6BF3600ECE572 /* ShareSDKCoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKCoreService.h; sourceTree = "<group>"; };
+		049B1C3719F6BF3600ECE572 /* SSCDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCDataObject.h; sourceTree = "<group>"; };
+		049B1C3819F6BF3600ECE572 /* SSCKeyDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCKeyDef.h; sourceTree = "<group>"; };
+		049B1C3919F6BF3600ECE572 /* SSCLocationCoordinate2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCLocationCoordinate2D.h; sourceTree = "<group>"; };
+		049B1C3A19F6BF3600ECE572 /* SSCNotificationDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCNotificationDef.h; sourceTree = "<group>"; };
+		049B1C3B19F6BF3600ECE572 /* SSCTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCTypeDef.h; sourceTree = "<group>"; };
+		049B1C3D19F6BFC900ECE572 /* AGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCommon.h; sourceTree = "<group>"; };
+		049B1C3E19F6BFC900ECE572 /* CMCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCacheManager.h; sourceTree = "<group>"; };
+		049B1C3F19F6BFC900ECE572 /* CMDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDebugLog.h; sourceTree = "<group>"; };
+		049B1C4019F6BFC900ECE572 /* CMDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDeviceInfo.h; sourceTree = "<group>"; };
+		049B1C4119F6BFC900ECE572 /* CMErrorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMErrorInfo.h; sourceTree = "<group>"; };
+		049B1C4219F6BFC900ECE572 /* CMEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMEventDispatcher.h; sourceTree = "<group>"; };
+		049B1C4319F6BFC900ECE572 /* CMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGridView.h; sourceTree = "<group>"; };
+		049B1C4419F6BFC900ECE572 /* CMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGridViewCell.h; sourceTree = "<group>"; };
+		049B1C4519F6BFC900ECE572 /* CMHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTableView.h; sourceTree = "<group>"; };
+		049B1C4619F6BFC900ECE572 /* CMHTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTableViewItem.h; sourceTree = "<group>"; };
+		049B1C4719F6BFC900ECE572 /* CMHTTPPostedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTTPPostedFile.h; sourceTree = "<group>"; };
+		049B1C4819F6BFC900ECE572 /* CMHTTPRequestParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTTPRequestParameters.h; sourceTree = "<group>"; };
+		049B1C4919F6BFC900ECE572 /* CMHTTPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTTPToken.h; sourceTree = "<group>"; };
+		049B1C4A19F6BFC900ECE572 /* CMImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageCacheManager.h; sourceTree = "<group>"; };
+		049B1C4B19F6BFC900ECE572 /* CMImageHeaderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageHeaderTableView.h; sourceTree = "<group>"; };
+		049B1C4C19F6BFC900ECE572 /* CMImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageLoader.h; sourceTree = "<group>"; };
+		049B1C4D19F6BFC900ECE572 /* CMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageView.h; sourceTree = "<group>"; };
+		049B1C4E19F6BFC900ECE572 /* CMJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJSONKit.h; sourceTree = "<group>"; };
+		049B1C4F19F6BFC900ECE572 /* CMLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLoader.h; sourceTree = "<group>"; };
+		049B1C5019F6BFC900ECE572 /* CMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLoadingView.h; sourceTree = "<group>"; };
+		049B1C5119F6BFC900ECE572 /* CMOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOpenUDID.h; sourceTree = "<group>"; };
+		049B1C5219F6BFC900ECE572 /* CMPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPageContentView.h; sourceTree = "<group>"; };
+		049B1C5319F6BFC900ECE572 /* CMPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPageView.h; sourceTree = "<group>"; };
+		049B1C5419F6BFC900ECE572 /* CMPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPinyin.h; sourceTree = "<group>"; };
+		049B1C5519F6BFC900ECE572 /* CMPinyinFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPinyinFirstLetter.h; sourceTree = "<group>"; };
+		049B1C5619F6BFC900ECE572 /* CMQuiltItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMQuiltItemView.h; sourceTree = "<group>"; };
+		049B1C5719F6BFC900ECE572 /* CMQuiltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMQuiltView.h; sourceTree = "<group>"; };
+		049B1C5819F6BFC900ECE572 /* CMRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRandom.h; sourceTree = "<group>"; };
+		049B1C5919F6BFC900ECE572 /* CMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMReachability.h; sourceTree = "<group>"; };
+		049B1C5A19F6BFC900ECE572 /* CMRefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRefreshTableHeaderView.h; sourceTree = "<group>"; };
+		049B1C5B19F6BFC900ECE572 /* CMRegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRegexKitLite.h; sourceTree = "<group>"; };
+		049B1C5C19F6BFC900ECE572 /* CoreDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDefinition.h; sourceTree = "<group>"; };
+		049B1C5D19F6BFC900ECE572 /* ICMErrorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMErrorInfo.h; sourceTree = "<group>"; };
+		049B1C5E19F6BFC900ECE572 /* ICMEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMEventDispatcher.h; sourceTree = "<group>"; };
+		049B1C5F19F6BFC900ECE572 /* ICMGridItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMGridItemView.h; sourceTree = "<group>"; };
+		049B1C6019F6BFC900ECE572 /* ICMHTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMHTableViewItem.h; sourceTree = "<group>"; };
+		049B1C6119F6BFC900ECE572 /* ICMPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMPageContentView.h; sourceTree = "<group>"; };
+		049B1C6219F6BFC900ECE572 /* ICMQuiltItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMQuiltItemView.h; sourceTree = "<group>"; };
+		049B1C6319F6BFC900ECE572 /* NSData+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Common.h"; sourceTree = "<group>"; };
+		049B1C6419F6BFC900ECE572 /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
+		049B1C6519F6BFC900ECE572 /* NSMutableURLRequest+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Common.h"; sourceTree = "<group>"; };
+		049B1C6619F6BFC900ECE572 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		049B1C6719F6BFC900ECE572 /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		049B1C6819F6BFC900ECE572 /* UIDevice+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Common.h"; sourceTree = "<group>"; };
+		049B1C6919F6BFC900ECE572 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		049B1C6A19F6BFC900ECE572 /* UINavigationBar+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Common.h"; sourceTree = "<group>"; };
 		7EC2B49319F62D1200475A63 /* CAIShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAIShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC2B49719F62D1200475A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC2B49819F62D1200475A63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,9 +158,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049B1BFD19F6B11100ECE572 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				049B1C2619F6BCE200ECE572 /* P */,
+				049B1C2519F6BB8C00ECE572 /* H */,
+				049B1C1119F6B11100ECE572 /* NSArray+ShareSDK.h */,
+				049B1C1219F6B11100ECE572 /* ShareSDK.h */,
+				049B1C2719F6BE7800ECE572 /* ShareSDK.m */,
+				049B1C1319F6B11100ECE572 /* ShareSDK+Utils.h */,
+				049B1C1819F6B11100ECE572 /* SSHTTPClient.h */,
+				049B1C1919F6B11100ECE572 /* SSHTTPParameters.h */,
+				049B1C1A19F6B11100ECE572 /* SSInheritValue.h */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		049B1C2519F6BB8C00ECE572 /* H */ = {
+			isa = PBXGroup;
+			children = (
+				049B1C1619F6B11100ECE572 /* ShareSDKPlugin.h */,
+				049B1C1419F6B11100ECE572 /* ShareSDKDef.h */,
+				049B1C1B19F6B11100ECE572 /* SSLogDef.h */,
+				049B1C1C19F6B11100ECE572 /* SSViewDef.h */,
+				049B1C1719F6B11100ECE572 /* ShareSDKTypeDef.h */,
+				049B1C1519F6B11100ECE572 /* ShareSDKEventHandlerDef.h */,
+			);
+			name = H;
+			sourceTree = "<group>";
+		};
+		049B1C2619F6BCE200ECE572 /* P */ = {
+			isa = PBXGroup;
+			children = (
+				049B1BFE19F6B11100ECE572 /* ISSAuthOptions.h */,
+				049B1BFF19F6B11100ECE572 /* ISSContainer.h */,
+				049B1C0019F6B11100ECE572 /* ISSContent.h */,
+				049B1C0119F6B11100ECE572 /* ISSiPadViewController.h */,
+				049B1C0219F6B11100ECE572 /* ISSPage.h */,
+				049B1C0319F6B11100ECE572 /* ISSPlatform.h */,
+				049B1C0419F6B11100ECE572 /* ISSPlatformApp.h */,
+				049B1C0519F6B11100ECE572 /* ISSPlatformAuthSession.h */,
+				049B1C0619F6B11100ECE572 /* ISSPlatformCredential.h */,
+				049B1C0719F6B11100ECE572 /* ISSPlatformShareContentEntity.h */,
+				049B1C0819F6B11100ECE572 /* ISSPlatformShareInfo.h */,
+				049B1C0919F6B11100ECE572 /* ISSPlatformUser.h */,
+				049B1C0A19F6B11100ECE572 /* ISSShareActionSheet.h */,
+				049B1C0B19F6B11100ECE572 /* ISSShareActionSheetItem.h */,
+				049B1C0C19F6B11100ECE572 /* ISSShareOptions.h */,
+				049B1C0D19F6B11100ECE572 /* ISSShareView.h */,
+				049B1C0E19F6B11100ECE572 /* ISSShareViewDelegate.h */,
+				049B1C0F19F6B11100ECE572 /* ISSUserField.h */,
+				049B1C1019F6B11100ECE572 /* ISSViewDelegate.h */,
+			);
+			name = P;
+			sourceTree = "<group>";
+		};
+		049B1C2A19F6BF3600ECE572 /* ShareSDKCoreService */ = {
+			isa = PBXGroup;
+			children = (
+				049B1C2B19F6BF3600ECE572 /* ISSCAccount.h */,
+				049B1C2C19F6BF3600ECE572 /* ISSCAttachment.h */,
+				049B1C2D19F6BF3600ECE572 /* ISSCAuthSession.h */,
+				049B1C2E19F6BF3600ECE572 /* ISSCContentDescriptor.h */,
+				049B1C2F19F6BF3600ECE572 /* ISSCDataObject.h */,
+				049B1C3019F6BF3600ECE572 /* ISSCOAuthParameters.h */,
+				049B1C3119F6BF3600ECE572 /* ISSCOpenApp.h */,
+				049B1C3219F6BF3600ECE572 /* ISSCParameters.h */,
+				049B1C3319F6BF3600ECE572 /* ISSCRequest.h */,
+				049B1C3419F6BF3600ECE572 /* ISSCToken.h */,
+				049B1C3519F6BF3600ECE572 /* ISSCUserDescriptor.h */,
+				049B1C3619F6BF3600ECE572 /* ShareSDKCoreService.h */,
+				049B1C3719F6BF3600ECE572 /* SSCDataObject.h */,
+				049B1C3819F6BF3600ECE572 /* SSCKeyDef.h */,
+				049B1C3919F6BF3600ECE572 /* SSCLocationCoordinate2D.h */,
+				049B1C3A19F6BF3600ECE572 /* SSCNotificationDef.h */,
+				049B1C3B19F6BF3600ECE572 /* SSCTypeDef.h */,
+			);
+			path = ShareSDKCoreService;
+			sourceTree = "<group>";
+		};
+		049B1C3C19F6BFC900ECE572 /* AGCommon */ = {
+			isa = PBXGroup;
+			children = (
+				049B1C3D19F6BFC900ECE572 /* AGCommon.h */,
+				049B1C3E19F6BFC900ECE572 /* CMCacheManager.h */,
+				049B1C3F19F6BFC900ECE572 /* CMDebugLog.h */,
+				049B1C4019F6BFC900ECE572 /* CMDeviceInfo.h */,
+				049B1C4119F6BFC900ECE572 /* CMErrorInfo.h */,
+				049B1C4219F6BFC900ECE572 /* CMEventDispatcher.h */,
+				049B1C4319F6BFC900ECE572 /* CMGridView.h */,
+				049B1C4419F6BFC900ECE572 /* CMGridViewCell.h */,
+				049B1C4519F6BFC900ECE572 /* CMHTableView.h */,
+				049B1C4619F6BFC900ECE572 /* CMHTableViewItem.h */,
+				049B1C4719F6BFC900ECE572 /* CMHTTPPostedFile.h */,
+				049B1C4819F6BFC900ECE572 /* CMHTTPRequestParameters.h */,
+				049B1C4919F6BFC900ECE572 /* CMHTTPToken.h */,
+				049B1C4A19F6BFC900ECE572 /* CMImageCacheManager.h */,
+				049B1C4B19F6BFC900ECE572 /* CMImageHeaderTableView.h */,
+				049B1C4C19F6BFC900ECE572 /* CMImageLoader.h */,
+				049B1C4D19F6BFC900ECE572 /* CMImageView.h */,
+				049B1C4E19F6BFC900ECE572 /* CMJSONKit.h */,
+				049B1C4F19F6BFC900ECE572 /* CMLoader.h */,
+				049B1C5019F6BFC900ECE572 /* CMLoadingView.h */,
+				049B1C5119F6BFC900ECE572 /* CMOpenUDID.h */,
+				049B1C5219F6BFC900ECE572 /* CMPageContentView.h */,
+				049B1C5319F6BFC900ECE572 /* CMPageView.h */,
+				049B1C5419F6BFC900ECE572 /* CMPinyin.h */,
+				049B1C5519F6BFC900ECE572 /* CMPinyinFirstLetter.h */,
+				049B1C5619F6BFC900ECE572 /* CMQuiltItemView.h */,
+				049B1C5719F6BFC900ECE572 /* CMQuiltView.h */,
+				049B1C5819F6BFC900ECE572 /* CMRandom.h */,
+				049B1C5919F6BFC900ECE572 /* CMReachability.h */,
+				049B1C5A19F6BFC900ECE572 /* CMRefreshTableHeaderView.h */,
+				049B1C5B19F6BFC900ECE572 /* CMRegexKitLite.h */,
+				049B1C5C19F6BFC900ECE572 /* CoreDefinition.h */,
+				049B1C5D19F6BFC900ECE572 /* ICMErrorInfo.h */,
+				049B1C5E19F6BFC900ECE572 /* ICMEventDispatcher.h */,
+				049B1C5F19F6BFC900ECE572 /* ICMGridItemView.h */,
+				049B1C6019F6BFC900ECE572 /* ICMHTableViewItem.h */,
+				049B1C6119F6BFC900ECE572 /* ICMPageContentView.h */,
+				049B1C6219F6BFC900ECE572 /* ICMQuiltItemView.h */,
+				049B1C6319F6BFC900ECE572 /* NSData+Common.h */,
+				049B1C6419F6BFC900ECE572 /* NSDate+Common.h */,
+				049B1C6519F6BFC900ECE572 /* NSMutableURLRequest+Common.h */,
+				049B1C6619F6BFC900ECE572 /* NSString+Common.h */,
+				049B1C6719F6BFC900ECE572 /* UIColor+Common.h */,
+				049B1C6819F6BFC900ECE572 /* UIDevice+Common.h */,
+				049B1C6919F6BFC900ECE572 /* UIImage+Common.h */,
+				049B1C6A19F6BFC900ECE572 /* UINavigationBar+Common.h */,
+			);
+			path = AGCommon;
+			sourceTree = "<group>";
+		};
 		7EC2B48A19F62D1200475A63 = {
 			isa = PBXGroup;
 			children = (
+				049B1C3C19F6BFC900ECE572 /* AGCommon */,
+				049B1C2A19F6BF3600ECE572 /* ShareSDKCoreService */,
+				049B1BFD19F6B11100ECE572 /* SDK */,
 				7EC2B49519F62D1200475A63 /* CAIShare */,
 				7EC2B4B219F62D1300475A63 /* CAIShareTests */,
 				7EC2B49419F62D1200475A63 /* Products */,
@@ -226,6 +457,7 @@
 				7EC2B49919F62D1200475A63 /* main.m in Sources */,
 				7EC2B4A219F62D1200475A63 /* ViewController.m in Sources */,
 				7EC2B49F19F62D1200475A63 /* CAIShare.xcdatamodeld in Sources */,
+				049B1C2819F6BE7800ECE572 /* ShareSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +650,7 @@
 				7EC2B4BB19F62D1300475A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EC2B4BC19F62D1300475A63 /* Build configuration list for PBXNativeTarget "CAIShareTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +659,7 @@
 				7EC2B4BE19F62D1300475A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
